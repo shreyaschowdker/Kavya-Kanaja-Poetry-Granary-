@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kavya-Kanaja | ಕಾವ್ಯ-ಕಣಜ — The Granary of Kannada Poetry</title>
+  <meta name="description" content="Kavya-Kanaja is a beautifully crafted Android app dedicated to classical and contemporary Kannada poetry. Read, listen, and explore the rich heritage of Kannada literature." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,700&family=Inter:wght@300;400;500;600&family=Noto+Sans+Kannada:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">
+        <span class="logo-icon">📜</span>
+        <span class="logo-text">Kavya<span class="logo-accent">-Kanaja</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+        <li><a href="#poets" class="nav-link">Poets</a></li>
+        <li><a href="#download" class="nav-link nav-cta">Download App</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-particles" aria-hidden="true">
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+      <div class="particle p5"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Now Available on Android
+        </div>
+        <h1 class="hero-title">
+          ಕಾವ್ಯ-ಕಣಜ<br/>
+          <span class="hero-title-sub">The Granary of Poetry</span>
+        </h1>
+        <p class="hero-desc">
+          Immerse yourself in the timeless world of Kannada literature. Read classical and contemporary poems, listen to professional recitations, and uncover the beauty of every word — all in one modern app.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary" id="cta-download">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.7 9.05 7.4c1.43.07 2.42.79 3.24.8 1.27-.26 2.49-1 3.85-.84 1.65.2 2.89.98 3.7 2.41-3.39 2.03-2.84 6.63.47 7.88-.62 1.64-1.44 3.27-3.26 4.63zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+            Download for Android
+          </a>
+          <a href="#features" class="btn btn-ghost" id="cta-explore">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+            Explore Features
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">Poems</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">100+</span>
+            <span class="stat-label">Poets</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num">4.9★</span>
+            <span class="stat-label">Rating</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-mockup">
+          <div class="phone-frame">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="app-topbar">
+                <span class="app-title-text">Kavya-Kanaja</span>
+                <span class="app-search-icon">🔍</span>
+              </div>
+              <div class="app-content">
+                <div class="app-section-label">ಇಂದಿನ ಕವಿತೆ — Poem of the Day</div>
+                <div class="app-poem-card">
+                  <p class="app-poem-title">ಮನ ಚಿಂತಯ ಮಾ</p>
+                  <p class="app-poem-author">— ಕುವೆಂಪು</p>
+                  <div class="app-poem-preview">
+                    <span class="app-word highlight-word">ಮನ</span>
+                    <span class="app-word"> ಚಿಂತಯ </span>
+                    <span class="app-word">ಮಾ</span>
+                    <span class="app-word"> ವ್ಯಥಿತ</span>
+                  </div>
+                  <div class="app-audio-bar">
+                    <span class="audio-icon">▶</span>
+                    <div class="audio-wave">
+                      <div class="wave-bar w1"></div>
+                      <div class="wave-bar w2"></div>
+                      <div class="wave-bar w3"></div>
+                      <div class="wave-bar w4"></div>
+                      <div class="wave-bar w5"></div>
+                      <div class="wave-bar w6"></div>
+                      <div class="wave-bar w7"></div>
+                    </div>
+                    <span class="audio-time">2:34</span>
+                  </div>
+                </div>
+                <div class="app-section-label" style="margin-top:14px">Recent Poems</div>
+                <div class="app-mini-card">
+                  <span class="mini-dot gold"></span>
+                  <div>
+                    <p class="mini-title">ಭೂಮಿ ಗೀತ</p>
+                    <p class="mini-sub">ಡಾ. ಚಂದ್ರಶೇಖರ ಕಂಬಾರ</p>
+                  </div>
+                  <span class="mini-fav">❤</span>
+                </div>
+                <div class="app-mini-card">
+                  <span class="mini-dot purple"></span>
+                  <div>
+                    <p class="mini-title">ನಕ್ಷತ್ರಗಳು</p>
+                    <p class="mini-sub">ಅ.ರಾ. ಮಿತ್ರ</p>
+                  </div>
+                  <span class="mini-fav">🤍</span>
+                </div>
+              </div>
+              <div class="app-navbar">
+                <span class="app-nav-item active">🏠</span>
+                <span class="app-nav-item">📚</span>
+                <span class="app-nav-item">🔍</span>
+                <span class="app-nav-item">❤️</span>
+              </div>
+            </div>
+          </div>
+          <div class="phone-glow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint" aria-label="Scroll down">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE STRIP ── -->
+  <div class="marquee-strip" aria-hidden="true">
+    <div class="marquee-track">
+      <span>ಕಾವ್ಯ</span><span class="sep">✦</span>
+      <span>Poems</span><span class="sep">✦</span>
+      <span>ಕವಿತೆ</span><span class="sep">✦</span>
+      <span>Audio Recitations</span><span class="sep">✦</span>
+      <span>ಕಾವ್ಯ</span><span class="sep">✦</span>
+      <span>Favorites</span><span class="sep">✦</span>
+      <span>ಸಾಹಿತ್ಯ</span><span class="sep">✦</span>
+      <span>Kannada Literature</span><span class="sep">✦</span>
+      <span>ಕಾವ್ಯ</span><span class="sep">✦</span>
+      <span>Poems</span><span class="sep">✦</span>
+      <span>ಕವಿತೆ</span><span class="sep">✦</span>
+      <span>Audio Recitations</span><span class="sep">✦</span>
+      <span>ಕಾವ್ಯ</span><span class="sep">✦</span>
+      <span>Favorites</span><span class="sep">✦</span>
+      <span>ಸಾಹಿತ್ಯ</span><span class="sep">✦</span>
+      <span>Kannada Literature</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ── FEATURES ── -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <p class="section-eyebrow">What We Offer</p>
+      <h2 class="section-title">Everything a Poetry Lover Needs</h2>
+      <p class="section-subtitle">A seamless, immersive experience crafted for literature enthusiasts</p>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card feature-large" id="feat-potd">
+        <div class="feature-icon-wrap gold">📜</div>
+        <h3 class="feature-title">Poem of the Day</h3>
+        <p class="feature-desc">Start every day with a handpicked Kannada masterpiece. Our editorial algorithm surfaces timeless verses to inspire your mornings.</p>
+        <div class="feature-tag">Daily Updates</div>
+      </div>
+
+      <div class="feature-card" id="feat-interactive">
+        <div class="feature-icon-wrap purple">✏️</div>
+        <h3 class="feature-title">Interactive Reading</h3>
+        <p class="feature-desc">Tap any difficult word to instantly reveal its meaning, etymology, and usage — making classical Kannada accessible to everyone.</p>
+      </div>
+
+      <div class="feature-card" id="feat-audio">
+        <div class="feature-icon-wrap rose">🎧</div>
+        <h3 class="feature-title">Audio Recitations</h3>
+        <p class="feature-desc">Hear poems come alive through professional recitations powered by a lifecycle-aware ExoPlayer integration.</p>
+      </div>
+
+      <div class="feature-card feature-large" id="feat-poets">
+        <div class="feature-icon-wrap teal">👤</div>
+        <h3 class="feature-title">Poet Profiles</h3>
+        <p class="feature-desc">Explore rich biographies, life timelines, and complete collected works for every poet in the Kavya-Kanaja library — from Kuvempu to modern voices.</p>
+        <div class="feature-tag">100+ Poets</div>
+      </div>
+
+      <div class="feature-card" id="feat-search">
+        <div class="feature-icon-wrap amber">🔍</div>
+        <h3 class="feature-title">Real-time Search</h3>
+        <p class="feature-desc">Debounced search across titles, poet names, and poem content. Results appear as you type, instantly.</p>
+      </div>
+
+      <div class="feature-card" id="feat-favorites">
+        <div class="feature-icon-wrap pink">❤️</div>
+        <h3 class="feature-title">Favorites & Offline</h3>
+        <p class="feature-desc">Save poems to your personal collection. Offline-first architecture keeps your favorites accessible even without internet.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ── -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="section-header">
+      <p class="section-eyebrow">Simple & Elegant</p>
+      <h2 class="section-title">Start Your Journey in 3 Steps</h2>
+    </div>
+    <div class="steps-container">
+      <div class="step-card" id="step-1">
+        <div class="step-number">01</div>
+        <div class="step-content">
+          <h3>Download the App</h3>
+          <p>Install Kavya-Kanaja from the Google Play Store in seconds. Free, ad-light, and beautifully designed.</p>
+        </div>
+      </div>
+      <div class="step-connector" aria-hidden="true"></div>
+      <div class="step-card" id="step-2">
+        <div class="step-number">02</div>
+        <div class="step-content">
+          <h3>Explore the Library</h3>
+          <p>Browse by poet, era, or mood. Discover your Poem of the Day or search for a beloved classic instantly.</p>
+        </div>
+      </div>
+      <div class="step-connector" aria-hidden="true"></div>
+      <div class="step-card" id="step-3">
+        <div class="step-number">03</div>
+        <div class="step-content">
+          <h3>Read, Listen & Save</h3>
+          <p>Tap on words to learn meanings, listen to audio recitations, and save your favorites for offline reading.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── POETS SPOTLIGHT ── -->
+  <section class="poets-section" id="poets">
+    <div class="section-header">
+      <p class="section-eyebrow">Featured Voices</p>
+      <h2 class="section-title">Poets in the Kanaja</h2>
+      <p class="section-subtitle">From Jnanpith laureates to emerging voices of modern Kannada</p>
+    </div>
+    <div class="poets-grid">
+      <div class="poet-card" id="poet-kuvempu">
+        <div class="poet-avatar" style="background: linear-gradient(135deg, #f59e0b, #d97706)">ಕು</div>
+        <h3 class="poet-name">ಕುವೆಂಪು</h3>
+        <p class="poet-name-en">Kuvempu</p>
+        <p class="poet-bio">National Poet of Karnataka & Jnanpith laureate, celebrated for epic works like Ramayana Darshanam.</p>
+        <div class="poet-tag">Jnanpith</div>
+      </div>
+      <div class="poet-card" id="poet-bendre">
+        <div class="poet-avatar" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed)">ಬೇ</div>
+        <h3 class="poet-name">ದ.ರಾ. ಬೇಂದ್ರೆ</h3>
+        <p class="poet-name-en">D.R. Bendre</p>
+        <p class="poet-bio">Known as "Ambikatanayadatta," his lyrical genius earned him the Jnanpith Award in 1974.</p>
+        <div class="poet-tag">Jnanpith</div>
+      </div>
+      <div class="poet-card" id="poet-kambar">
+        <div class="poet-avatar" style="background: linear-gradient(135deg, #10b981, #059669)">ಕಂ</div>
+        <h3 class="poet-name">ಚಂದ್ರಶೇಖರ ಕಂಬಾರ</h3>
+        <p class="poet-name-en">Chandrashekhara Kambara</p>
+        <p class="poet-bio">Playwright, poet, and Jnanpith laureate celebrated for folk-infused Kannada literature.</p>
+        <div class="poet-tag">Jnanpith</div>
+      </div>
+      <div class="poet-card" id="poet-adiga">
+        <div class="poet-avatar" style="background: linear-gradient(135deg, #f43f5e, #e11d48)">ಅ</div>
+        <h3 class="poet-name">ಗೋಪಾಲಕೃಷ್ಣ ಅಡಿಗ</h3>
+        <p class="poet-name-en">G.S. Shivarudrappa</p>
+        <p class="poet-bio">Pioneer of Navya movement in Kannada poetry, reshaping modern literary expression.</p>
+        <div class="poet-tag">Navya</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-header">
+      <p class="section-eyebrow">What Users Say</p>
+      <h2 class="section-title">Loved by Poetry Enthusiasts</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testi-card" id="testi-1">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Finally, an app that brings the beauty of Kannada poetry to the digital age. The audio recitations are absolutely stunning."</p>
+        <div class="testi-author">
+          <div class="testi-avatar teal">RM</div>
+          <div>
+            <p class="testi-name">Raghu M.</p>
+            <p class="testi-location">Bengaluru</p>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card" id="testi-2">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The word-tap feature is revolutionary. As a student of Kannada literature, I finally understand classical poems without a dictionary."</p>
+        <div class="testi-author">
+          <div class="testi-avatar purple">SP</div>
+          <div>
+            <p class="testi-name">Smitha P.</p>
+            <p class="testi-location">Mysuru</p>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card" id="testi-3">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Poem of the Day has become my morning ritual. The design is clean, the content is rich — Kavya-Kanaja is a treasure."</p>
+        <div class="testi-author">
+          <div class="testi-avatar amber">AK</div>
+          <div>
+            <p class="testi-name">Arpitha K.</p>
+            <p class="testi-location">Dharwad</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DOWNLOAD CTA ── -->
+  <section class="download-section" id="download">
+    <div class="download-bg-glow" aria-hidden="true"></div>
+    <div class="download-content">
+      <div class="download-badge">Free to Download</div>
+      <h2 class="download-title">Begin Your Poetic Journey Today</h2>
+      <p class="download-desc">Join thousands of Kannada literature lovers exploring the rich heritage of Kannada poetry, one verse at a time.</p>
+      <div class="download-buttons">
+        <a href="#" class="store-btn" id="btn-playstore">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path fill="#fff" d="M3.18 23.76c.42.23.9.24 1.33.04l11.67-6.65-2.93-2.94-10.07 9.55zm-1.43-1.63c-.14-.29-.22-.61-.22-.96V2.83c0-.35.08-.67.22-.97l10.35 10.14-10.35 10.13zm14.44-8.08l-2.04-2.05-10.97 6.26 13.01-4.21zm-13.01-8.82l10.97 6.26 2.04-2.05-13.01-4.21zm15.08 4.34l-2.47-1.41-2.32 2.32 2.32 2.31 2.49-1.42c.71-.4.71-1.4-.02-1.8z"/></svg>
+          <div>
+            <small>Get it on</small>
+            <strong>Google Play</strong>
+          </div>
+        </a>
+        <a href="https://github.com/yourusername/Kavya-Kanaja" class="store-btn ghost-store" id="btn-github" target="_blank">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path fill="currentColor" d="M12 .297C5.373.297 0 5.67 0 12.297c0 5.301 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          <div>
+            <small>Open Source on</small>
+            <strong>GitHub</strong>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">📜</span>
+        <span class="footer-logo-text">Kavya<span class="logo-accent">-Kanaja</span></span>
+        <p class="footer-tagline">ಕಾವ್ಯ-ಕಣಜ — The Granary of Poetry</p>
+      </div>
+      <div class="footer-links-group">
+        <p class="footer-group-title">App</p>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#download">Download</a>
+      </div>
+      <div class="footer-links-group">
+        <p class="footer-group-title">Explore</p>
+        <a href="#poets">Poets</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#">Blog</a>
+      </div>
+      <div class="footer-links-group">
+        <p class="footer-group-title">Connect</p>
+        <a href="#">GitHub</a>
+        <a href="#">Twitter</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Kavya-Kanaja. Made with ❤️ for Kannada Literature.</p>
+      <p>MIT License</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
