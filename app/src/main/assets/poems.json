@@ -1,0 +1,58 @@
+[
+  {
+    "id": "poem_1",
+    "title": "Kurigalu Saar Kurigalu",
+    "poet": {
+      "id": "poet_ks_narasimhaswamy",
+      "name": "K. S. Narasimhaswamy",
+      "biography": "K. S. Narasimhaswamy was a prominent Indian poet in the Kannada language. His most popular collection of poems 'Mysuru Mallige' has seen more than thirty-two reprints and is sought after as an ideal gift for newly married couples in Karnataka.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/KSN_Swamy.jpg/220px-KSN_Swamy.jpg",
+      "birthYear": 1915,
+      "deathYear": 2003
+    },
+    "content": "Kurigalu saar kurigalu\nOnde samane saagidavu...",
+    "bhavartha": "This poem is a satirical take on the herd mentality of humans, comparing them to sheep following each other blindly without questioning their path or purpose.",
+    "audioUrl": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "difficultWords": [
+      {
+        "word": "Kurigalu",
+        "meaning": "Sheep",
+        "context": "Used metaphorically for people blindly following others."
+      },
+      {
+        "word": "saagidavu",
+        "meaning": "Moved forward",
+        "context": "Moving without thinking."
+      }
+    ],
+    "isPoemOfTheDay": true
+  },
+  {
+    "id": "poem_2",
+    "title": "Mankuthimmana Kagga",
+    "poet": {
+      "id": "poet_dvg",
+      "name": "D. V. Gundappa",
+      "biography": "Devanahalli Venkataramanayya Gundappa, popularly known as DVG, was a Kannada writer, poet, and philosopher. His most famous work is the Mankuthimmana Kagga, which is often referred to as the 'Bhagavad Gita of Kannada'.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ec/D_V_Gundappa.jpg",
+      "birthYear": 1887,
+      "deathYear": 1975
+    },
+    "content": "Hullagu bettada adi manege malligeyagu\nKallagu kashtagala malehodiye edeyolage...",
+    "bhavartha": "A philosophical verse advising one to be humble like a blade of grass at the foot of a mountain, sweet like a jasmine flower to one's home, and strong like a rock when faced with difficulties.",
+    "audioUrl": null,
+    "difficultWords": [
+      {
+        "word": "Hullagu",
+        "meaning": "Become grass",
+        "context": "Symbolizing extreme humility."
+      },
+      {
+        "word": "Kallagu",
+        "meaning": "Become a stone/rock",
+        "context": "Symbolizing unwavering strength against hardships."
+      }
+    ],
+    "isPoemOfTheDay": false
+  }
+]
